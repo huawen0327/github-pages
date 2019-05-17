@@ -1,0 +1,413 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body1
+{
+	background-image: url(picture/首页-背景.png);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	font-family: "Microsoft YaHei",微软雅黑;
+}
+
+.div1
+{
+	position: relative;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 50px;
+	font-size: 1.5em;
+
+	
+	/*cursor: pointer; 
+	transition: all 0.3s;*/
+}
+
+.dropdown
+{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content
+{
+	display: none;
+	position: absolute;
+	background-image: url(picture/黑色1.png);
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	/*left: -50px;
+	top: -10px;*/
+	padding: 12px 16px;
+	border-radius:15px;
+	border-style:solid;
+	border-color: #f4f5f5;
+	border-width: 2px;
+
+	cursor: auto; 
+	transition: all 0.5s;
+}
+
+.dropdown:hover .dropdown-content
+{
+	display: block;
+}
+
+.dropdown-content:hover
+{
+	display: block;
+	transform: scale(1.2);
+}
+
+.dropdown-ul
+{
+	width: auto;
+	height: auto;
+}
+
+.div1 ul
+{
+	list-style-type:none;
+	padding:inherit;
+	background-image:url(picture/黑色.png);
+	height: 60px;
+	border-style:solid;
+	border-color: #f4f5f5;
+	border-width: 3px;
+	border-radius:15px;
+	/*box-shadow: #43566d 0px 0px 10px 1px;*/
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.div1 li
+{
+	display:inline-block;
+	margin: 13px 5%;
+}
+
+.div1 a
+{
+	text-decoration: none;
+	color: #f4f5f5;
+}
+
+.div1 a:hover
+{
+	
+	text-decoration:underline;
+}
+
+.div2
+{
+	position: relative;
+	top: 50px;
+}
+
+.div2 ul
+{
+	text-align:center;
+}
+
+.div2 li
+{
+	display:inline-block;
+	margin:5%;
+	width:200px;
+	height: 300px;
+	text-align:center;
+}
+
+.div3
+{
+	position: relative;
+	left: 0%;
+	top: -11%;
+	width: 100%;
+	height: 100%;
+	background-image: url("picture/首页-年例-demo1.png");
+	border-radius:15px;
+	/*box-shadow: 2px 2px 2px 2px while;*/
+	box-shadow: #43566d 0px 0px 18px 6px;
+
+	cursor: pointer; 
+	transition: all 0.3s;
+}
+
+.div3:hover
+{
+	transform: scale(1.1); 
+
+	box-shadow: #43566d 0px 0px 10px 1px;
+
+}
+
+.div3:after
+{
+	content: "";
+	width:100%;
+	height:20%;
+	position: absolute;
+	background: inherit;
+	left:0px;
+	top:80.5%;
+	background-image: url("picture/首页-年例-demo2.png");
+	background-position: 0px 100%;
+	border-radius:0px 0px 15px 15px;
+	border-top-style:solid;
+	border-color: #f4f5f5;
+	z-index: 2;
+}
+
+.div3 p
+{
+	position: relative;
+	left: 0%;
+	top: 83%;
+	font-size: 2em;
+	color: #f4f5f5;
+	text-decoration: none;
+	z-index: 3;
+}
+
+.div4
+{
+	position: relative;
+	left: 0%;
+	top: -11%;
+	width: 100%;
+	height: 100%;
+	background-image: url("picture/首页-水果.png");
+	border-radius:15px;
+	/*box-shadow: 2px 2px 2px 2px while;*/
+	box-shadow: #43566d 0px 0px 18px 6px;
+
+	cursor: pointer; 
+	transition: all 0.3s;
+}
+
+.div4:hover
+{
+	transform: scale(1.1); 
+
+	box-shadow: #43566d 0px 0px 10px 1px;
+
+}
+
+.div4:after
+{
+	content: "";
+	width:100%;
+	height:20%;
+	position: absolute;
+	background: inherit;
+	left:0px;
+	top:80.5%;
+	background-image: url("picture/首页-水果-模糊.png");
+	background-position: 0px 100%;
+	border-radius:0px 0px 15px 15px;
+	border-top-style:solid;
+	border-color: #f4f5f5;
+	z-index: 2;
+}
+
+.div4 p
+{
+	position: relative;
+	left: 0%;
+	top: 83%;
+	font-size: 2em;
+	color: #f4f5f5;
+	text-decoration: none;
+	z-index: 3;
+}
+
+.div5
+{
+	position: relative;
+	left: 0%;
+	top: -11%;
+	width: 100%;
+	height: 100%;
+	background-image: url("picture/首页-海鲜.png");
+	border-radius:15px;
+	/*box-shadow: 2px 2px 2px 2px while;*/
+	box-shadow: #43566d 0px 0px 18px 6px;
+
+	cursor: pointer; 
+	transition: all 0.3s;
+}
+
+.div5:hover
+{
+	transform: scale(1.1); 
+
+	box-shadow: #43566d 0px 0px 10px 1px;
+
+}
+
+.div5:after
+{
+	content: "";
+	width:100%;
+	height:20%;
+	position: absolute;
+	background: inherit;
+	left:0px;
+	top:80.5%;
+	background-image: url("picture/首页-海鲜-模糊.png");
+	background-position: 0px 100%;
+	border-radius:0px 0px 15px 15px;
+	border-top-style:solid;
+	border-color: #f4f5f5;
+	z-index: 2;
+}
+
+.div5 p
+{
+	position: relative;
+	left: 0%;
+	top: 83%;
+	font-size: 2em;
+	color: #f4f5f5;
+	text-decoration: none;
+	z-index: 3;
+}
+
+.div6
+{
+	position: relative;
+	left: 0%;
+	top: -11%;
+	width: 100%;
+	height: 100%;
+	background-image: url("picture/首页-传统美食.png");
+	border-radius:15px;
+	/*box-shadow: 2px 2px 2px 2px while;*/
+	box-shadow: #43566d 0px 0px 18px 6px;
+
+	cursor: pointer; 
+	transition: all 0.3s;
+}
+
+.div6:hover
+{
+	transform: scale(1.1); 
+
+	box-shadow: #43566d 0px 0px 10px 1px;
+
+}
+
+.div6:after
+{
+	content: "";
+	width:100%;
+	height:20%;
+	position: absolute;
+	background: inherit;
+	left:0px;
+	top:80.5%;
+	background-image: url("picture/首页-传统美食-模糊.png");
+	background-position: 0px 100%;
+	border-radius:0px 0px 15px 15px;
+	border-top-style:solid;
+	border-color: #f4f5f5;
+	z-index: 2;
+}
+
+.div6 p
+{
+	position: relative;
+	left: 0%;
+	top: 83%;
+	font-size: 2em;
+	color: #f4f5f5;
+	text-decoration: none;
+	z-index: 3;
+}
+
+.dropdown-content a
+{
+	font-weight: lighter;
+	font-size: 0.9em;
+}
+
+#frame
+{
+	position:relative;
+	
+	top: 40%;
+	left: 5%;
+	width:400px;
+	height:200px;
+	overflow:hidden;
+	border-radius:5px;
+}
+
+#dis
+{
+	position:relative;
+	top: 40%;
+	left: 5%;
+	
+	opacity:.5;
+}
+
+/*#dis li
+{
+	display:inline-block;
+	width:200px;
+	height:20px;
+	margin:0 50px;
+	float:left;
+	text-align:center;
+	color:#fff;
+	border-radius:10px;
+	background:#000;
+}*/
+
+#photos img
+{
+	float:left;
+	width:300px;
+	height:200px;
+}
+#photos
+{
+	position:relative;
+	top: 40%;
+	left: 5%;
+	z-index:-1;
+	width: calc(400px * 4);/*---修改图片数量的话需要修改下面的动画参数*/
+}
+
+.play
+{
+	animation: ma 15s ease-out infinite alternate;
+}
+
+@keyframes ma
+{
+	0%,10%   {margn-left: -20px;}
+	30%,40%  {margin-left: -420px;}
+	60%,70%  {margin-left: -820px;}
+	90%,100% {margin-left: -1220px;}
+}
+
+.div-p
+
+{
+	position: relative;
+	top:50px;
+	width: 90%;
+	margin-left:auto;
+	margin-right:auto;
+	z-index: -1;
+}
+
+.div-p p
+{
+	text-indent:2em;
+	font-size: 1.22em;
+	color:#474747;
+}
